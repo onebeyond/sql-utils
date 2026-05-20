@@ -15,3 +15,10 @@ table lists by values in their columns etc - so can be adapted to use nvarchar e
 names etc. Useful for diagnosing strange cross-table problems.
 
 - SQLServer specific.
+
+
+## AzureSqlUsers.sql
+
+This will list all users in an Azure SQL database
+
+- SQLAzure specific.
