@@ -1,0 +1,11 @@
+-- This query lists all the users in the current Azure SQL Database
+
+select name as username,
+       create_date,
+       modify_date,
+       type_desc as type,
+       authentication_type_desc as authentication_type
+from sys.database_principals
+where type not in ('A', 'G', 'R', 'X')
+      and sid is not null
+order by username;
