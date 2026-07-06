@@ -22,3 +22,8 @@ names etc. Useful for diagnosing strange cross-table problems.
 This will list all users in an Azure SQL database
 
 - SQLAzure specific.
+
+## TableSize-MySql
+This lists all DB Tables in a database by size.
+
+- MySQL specific.
