@@ -27,3 +27,16 @@ This will list all users in an Azure SQL database
 This lists all DB Tables in a database by size.
 
 - MySQL specific.
+
+## SpecificQueryLookup.sql
+Requires the Query Store to be enabled
+Lists raw stats from the query store. Quicker on a prod DB that using the generated stats, especially if you have an idea what you're looking for. Contains some useful examples of filters etc. You can also add TOP(N) to it.
+
+- SQL Server specific
+
+## QueryPlanByIdLookup.sql
+Requires the Query Store to be enabled
+
+Gets an XML Query plan by ID. SQL Server management Studio will helpfully render the query plan when you click on the value in the XML column.
+
+- SQL Server specific
